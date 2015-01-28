@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+	    	android:title="Chart View Settings"
+	    	android:key="group1">
+		<ListPreference 
+	    	android:key="carbhistory_line_color"
+	    	android:title="Line graph color"
+	    	android:summary="Select the color of the line graph"
+	    	android:defaultValue="-16711936"
+	    	android:entries="@+array/chart_colors"
+	    	android:entryValues="@+array/chart_color_values"/>
+		<ListPreference
+		    android:key="carbhistory_axes_color"
+		    android:title="Axes color"
+		    android:summary="Select the color of the axes"
+		    android:defaultValue="-7829368"
+		    android:entries="@array/chart_colors"
+		    android:entryValues="@+array/chart_color_values"/>
+		<ListPreference
+		    android:key="carbhistory_label_color"
+		    android:title="Label color"
+		    android:summary="Select the color of the labels"
+		    android:defaultValue="-3355444"
+		    android:entries="@array/chart_colors"
+		    android:entryValues="@+array/chart_color_values"/>
+	</PreferenceCategory>      
+</PreferenceScreen>

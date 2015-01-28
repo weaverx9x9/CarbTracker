@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isad.carbtracker"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="8"
+        	  android:targetSdkVersion="10" />
+
+    <application android:label="@string/app_name"
+        		 android:icon="@drawable/icon">
+        
+        <!-- The default activity of the application. -->
+        <activity android:name=".CarbTrackerActivity"
+            	  android:label="@string/app_name" >
+            
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SearchActivity"
+            	  android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <!-- - No category needed, because the Intent will specify this class component. -->
+            </intent-filter>
+                <meta-data android:name="android.app.searchable"
+                    	   android:resource="@xml/searchable"/>
+        </activity>
+
+        <activity android:name=".WeightHistoryActivity"></activity>
+        <activity android:name=".CarbHistoryActivity"></activity>
+        <activity android:name=".AddFoodActivity"></activity>
+        <activity android:name=".FoodActivity"></activity>
+		<activity android:name=".DailyCarbsActivity"></activity>
+		<activity android:name=".CarbHistoryPreferencesActivity"></activity>
+		<activity android:name=".WeightHistoryPreferencesActivity"></activity>
+		<activity android:name=".CarbTrackerPreferencesActivity"></activity>
+		<activity android:name=".WeightEntryActivity"
+		   	 	  android:theme="@android:style/Theme.Dialog">
+		</activity>
+		<activity android:name=".DailyFoodEntryActivity"></activity>
+		<activity android:name=".AddNewFoodActivity"></activity>
+        <provider android:name=".FoodsProvider"
+            	  android:authorities="com.isad.carbtracker.FoodsProvider"/>
+        	
+        <meta-data android:name="android.app.default_searchable"
+            	   android:value=".SearchActivity"/>
+    </application>
+</manifest>

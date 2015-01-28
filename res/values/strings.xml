@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello</string>
+    <string name="app_name">CarbTracker</string>
+    <string name="search_button">Search Foods</string>
+    <string name="carb_history_button">Carb History</string>
+    <string name="weight_history_button">Weight History</string>
+    <string name="temp_no_carbs">0</string>
+    <string name="food_desc">Name</string>
+    <string name="cabohydrt">Carbohydrates</string>
+    <string name="sugar">Sugar</string>
+    <string name="fiber">Fiber</string>
+    <string name="serving_size1">Serving Size 1</string>
+    <string name="serving_size2">Serving Size 2</string>
+    <string name="serving_size_weight">Weight In Grams</string>
+    <string name="date">Date</string>
+    <string name="carbs">Carbohydrates</string>
+    <string name="grams100_notice">Nutrient information is for 100 gram serving.</string>
+    <string name="search_instructions">Press the search key to look up a food</string>
+    <string name="no_results">No results found for \"%s\"</string>
+    
+    <!-- For AddFoodActivity -->
+    <string name="select">Select</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="gram_weight">Gram Weight</string>
+    <string name="one">1</string>
+    <string name="grams100">100 grams</string>
+    <string name="grams">Grams:</string>
+    <string name="total_carbs">Total Carbs:</string>
+    <string name="update_total_button">Update Total</string>
+    <string name="add_item_button">Add Item</string>
+    <string name="custom_weight">Enter Grams:</string>
+    
+    <!-- For FoodActivity -->
+    <string name="nutrient_info_100_grams">Nutrient Information for 100 Grams:</string>
+    
+    <!-- For DailyCarbsActivity -->
+    <string name="remove_entry">Remove Entry</string>
+    <string name="edit_entry">Edit Entry</string>
+    <string name="no_foods">There are currently no foods</string>
+        
+    <!-- For DailyFoodEntryActivity -->
+    <string name="grams_eaten">Grams Eaten:</string>
+    <string name="carbs_eaten">Carbohydrates:</string>
+    <string name="date_eaten">Date Eaten:</string>
+    <string name="time_eaten">Time Eaten:</string>
+    
+	<!-- For NotificationService -->
+    <string name="local_service_started">3423452</string>
+    <string name="local_service_stopped">3423452</string>
+    <string name="enter_weight">Enter your Weight:</string>
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one">%1$d result for \"%2$s\": </item>
+      <item quantity="other">%1$d results for \"%2$s\": </item>
+    </plurals>
+    
+    <string name="menu_search">Search</string>
+    <string name="search_label">Foods</string>
+    <string name="settings_description">Nutrition Information For Foods</string>
+    <string name="search_hint">Search the Foods</string>
+    <string name="add_food_btn_string">Add Food</string>
+    <string name="add_weight_button">Add</string>
+    
+    <string name="carbhistory_menu">Carb History Settings</string>
+    <string name="weighthistory_menu">Weight History Settings</string>
+    <string name="main_menu">CarbTracker Settings</string>
+</resources>

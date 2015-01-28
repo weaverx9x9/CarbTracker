@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:id="@+id/food_name_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            style="@android:style/TextAppearance.Large" />
+        
+        <TextView
+            android:id="@+id/onehundred_grams_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/grams100_notice" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".65"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/food_carbs_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/cabohydrt" />
+
+            <TextView
+                android:id="@+id/food_sugar_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/sugar" />
+
+            <TextView
+                android:id="@+id/food_fiber_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/fiber" />
+
+            <TextView
+                android:id="@+id/serving_size_1_label"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/serving_size1" />
+
+            <TextView
+                android:id="@+id/serving_size1_grams_label"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/gram_weight" />
+
+            <TextView
+                android:id="@+id/serving_size_2_label"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/serving_size2" />
+
+            <TextView
+                android:id="@+id/serving_size2_grams_label"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/gram_weight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/food_carbs_value"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/food_sugar_value"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/food_fiber_value"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/serving_size1_value"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/serving_size1_grams_value"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/serving_size2_value"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/serving_size2_grams_value"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_food_btn_string" />
+
+    </LinearLayout>
+
+</LinearLayout>

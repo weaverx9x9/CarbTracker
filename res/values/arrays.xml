@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For Setting the colors of various parts of the carbohydrate history chart. -->
+    <string-array name="chart_colors">
+        <item name="red">RED</item>
+        <item name="yellow">YELLOW</item>
+        <item name="green">GREEN</item>
+        <item name="blue">BLUE</item>
+        <item name="gray">GRAY</item>
+        <item name="light_gray">LIGHT GRAY</item>
+    </string-array>
+	<string-array name="chart_color_values">
+	    <item name="red">-65536</item>
+	    <item name="yellow">-256</item>
+	    <item name="green">-16711936</item>
+	    <item name="blue">-16776961</item>
+	    <item name="gray">-7829368</item>
+	    <item name="light_gray">-3355444</item>
+	</string-array>
+</resources>
